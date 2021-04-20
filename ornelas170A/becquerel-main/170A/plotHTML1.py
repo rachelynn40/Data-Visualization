@@ -13,13 +13,13 @@ import mpld3
 import json
 
 
+
 spec1 = bq.Spectrum.from_file('../tests/samples/1110C NAA cave pottery.Spe')
 spec2 = bq.Spectrum.from_file('../tests/samples/Mendocino_07-10-13_Acq-10-10-13.Spe')
 
 spec1.plot()
 # mpld3.save_html(spec1, spec1)
-# mpld3.fig_to_html(spec1, template_type+"simple")
-mpld3.show()
+x = str(mpld3.fig_to_html(spec1.plot()))
+# mpld3.show()
 # json01 = json.dumps(mpld3.fig_to_dict(spec1))
-
-
+mpld3.save_html(x, '/Users/beansmama/Desktop/Spring 21/NE 170A/frontEnd/images/plot1.html')
