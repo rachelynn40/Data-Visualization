@@ -9,19 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Insight Data Visualization - Tables</title>
+    <title>Insight - Dashboard</title>
 
-    <!-- Custom fonts for this template -->
+    <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
             href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
             rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this page -->
-    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 </head>
 
@@ -38,14 +35,14 @@
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-radiation-alt"></i>
             </div>
-            <div class="sidebar-brand-text mx-3">Insight Data Visualization</sup></div>
+            <div class="sidebar-brand-text mx-3">Insight Data Visualization</div>
         </a>
 
         <!-- Divider -->
         <hr class="sidebar-divider my-0">
 
         <!-- Nav Item - Dashboard -->
-        <li class="nav-item">
+        <li class="nav-item active">
             <a class="nav-link" href="index.html">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>Dashboard</span></a>
@@ -56,29 +53,108 @@
 
         <!-- Heading -->
         <div class="sidebar-heading">
-            Interface
+            Navigate Pages
         </div>
 
         <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+               aria-expanded="true" aria-controls="collapseTwo">
+                <i class="fas fa-fw fa-cog"></i>
+                <span>Components</span>
+            </a>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Custom Components:</h6>
+                    <a class="collapse-item" href="buttons.html">Buttons</a>
+                    <a class="collapse-item" href="cards.html">Cards</a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Nav Item - Utilities Collapse Menu -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+               aria-expanded="true" aria-controls="collapseUtilities">
+                <i class="fas fa-fw fa-wrench"></i>
+                <span>Utilities</span>
+            </a>
+            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                 data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Custom Utilities:</h6>
+                    <a class="collapse-item" href="utilities-color.html">Colors</a>
+                    <a class="collapse-item" href="utilities-border.html">Borders</a>
+                    <a class="collapse-item" href="utilities-animation.html">Animations</a>
+                    <a class="collapse-item" href="utilities-other.html">Other</a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Nav Item - Radioactive Decay -->
+        <li class="nav-item">
+            <a class="nav-link" href="radioactiveDecay.html">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Radioactive Decay</span></a>
+
+
+            <!-- Nav Item - Test Display -->
+        <li class="nav-item">
+            <a class="nav-link" href="testDisplay.html">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Test Display</span></a>
+
+            <!--            &lt;!&ndash; Divider &ndash;&gt;-->
+            <!--            <hr class="sidebar-divider">-->
+
+            <!-- Heading -->
+            <!--            <div class="sidebar-heading">-->
+            <!--                Isotope Data-->
+            <!--            </div>-->
+
+            <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                aria-expanded="true" aria-controls="collapsePages">
                 <i class="fas fa-fw fa-folder"></i>
-                <span>Common Isotopes</span>
+                <span>Isotopes</span>
             </a>
             <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Select Isotope:</h6>
+                    <h6 class="collapse-header">Common Isotopes:</h6>
                     <a class="collapse-item" href="tablesExplained.html">Tables Explained</a>
                     <a class="collapse-item" href="H.html">Hydrogen</a>
-                    <a class="collapse-item" href="He.html">C-14</a>
-                    <a class="collapse-item" href="Li.html">K-40</a>
-                    <a class="collapse-item" href=Be.html">Rn-220</a>
-                    <a class="collapse-item" href="B.html">Rn-222</a>
-                    <a class="collapse-item" href="C.html">Pb-214</a>
-                    <a class="collapse-item" href="N.html">Uranium</a>
-                    <a class="collapse-item" href="O.html">Tl-208</a>
-                    <a class="collapse-item" href="F.html">Thorium</a>
+                    <a class="collapse-item" href="Carbon.html">Carbon</a>
+                    <a class="collapse-item" href="K.html">Potassium</a>
+                    <a class="collapse-item" href="Rn.html">Radon</a>
+                    <a class="collapse-item" href="Bi.html">Bismuth</a>
+                    <a class="collapse-item" href="Pb.html">Lead</a>
+                    <a class="collapse-item" href="Uranium.html">Uranium</a>
+                    <a class="collapse-item" href="Tl.html">Thallium</a>
+                    <a class="collapse-item" href="Th.html">Thorium</a>
+                    <div class="collapse-divider"></div>
+                    <h6 class="collapse-header">Other Isotopes:</h6>
+                    <a class="collapse-item" href="Cs.html">Cesium</a>
+                    <a class="collapse-item" href="I.html">Iodine</a>
+                    <a class="collapse-item" href="Sr.html">Strontium</a>
+                </div>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages1"
+               aria-expanded="true" aria-controls="collapsePages">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Common Detectors</span>
+            </a>
+            <div id="collapsePages1" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Select Detector:</h6>
+                    <a class="collapse-item" href="GC.html">Geiger Counters</a>
+                    <a class="collapse-item" href="Dos.html">Dosimeters</a>
+                    <a class="collapse-item" href="SSCount.html">Solid-State Counting</a>
+                    <a class="collapse-item" href="Scint.html">Scintillators</a>
+                    <a class="collapse-item" href="SSCry.html">Solid State Crystals</a>
                 </div>
             </div>
         </li>
@@ -87,56 +163,29 @@
         <li class="nav-item">
             <a class="nav-link" href="charts.html">
                 <i class="fas fa-fw fa-chart-area"></i>
-                <span>Spectra</span></a>
+                <span>Chart Info (NOT FOR PUBLISH)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree"
+               aria-expanded="true" aria-controls="collapseThree">
+                <i class="fas fa-fw fa-chart-area"></i>
+                <span>Spectra</span>
+            </a>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Info:</h6>
+                    <a class="collapse-item" href="blank.html">blank</a>
+                    <a class="collapse-item" href="cards.html">Cards</a>
+                </div>
+            </div>
         </li>
 
-<!--        &lt;!&ndash; Nav Item - Tables &ndash;&gt;-->
-<!--        <li class="nav-item">-->
-<!--            <a class="nav-link" href="tables.html">-->
-<!--                <i class="fas fa-fw fa-table"></i>-->
-<!--                <span>Tables</span></a>-->
-        </li>
-        <!-- Divider -->
-        <hr class="sidebar-divider">
-
-        <!-- Heading -->
-        <div class="sidebar-heading">
-            Current View
-        </div>
-
-        <!-- Nav Item - Pages Collapse Menu -->
-<!--        <li class="nav-item">-->
-<!--            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"-->
-<!--               aria-expanded="true" aria-controls="collapsePages">-->
-<!--                <i class="fas fa-fw fa-folder"></i>-->
-<!--                <span>Pages</span>-->
-<!--            </a>-->
-<!--            <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">-->
-<!--                <div class="bg-white py-2 collapse-inner rounded">-->
-<!--                    <h6 class="collapse-header">Login Screens:</h6>-->
-<!--                    <a class="collapse-item" href="login.html">Login</a>-->
-<!--                    <a class="collapse-item" href="register.html">Register</a>-->
-<!--                    <a class="collapse-item" href="forgot-password.html">Forgot Password</a>-->
-<!--                    <div class="collapse-divider"></div>-->
-<!--                    <h6 class="collapse-header">Other Pages:</h6>-->
-<!--                    <a class="collapse-item" href="404.html">404 Page</a>-->
-<!--                    <a class="collapse-item" href="blank.html">Blank Page</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </li>-->
-
-<!--        &lt;!&ndash; Nav Item - Charts &ndash;&gt;-->
-<!--        <li class="nav-item">-->
-<!--            <a class="nav-link" href="charts.html">-->
-<!--                <i class="fas fa-fw fa-chart-area"></i>-->
-<!--                <span>Charts</span></a>-->
-<!--        </li>-->
 
         <!-- Nav Item - Tables -->
-        <li class="nav-item active">
-            <a class="nav-link" href="H.html">
+        <li class="nav-item">
+            <a class="nav-link" href="tables.html">
                 <i class="fas fa-fw fa-table"></i>
-                <span>Hydrogen</span></a>
+                <span>Tables Info (NOT FOR PUBLISH)</span></a>
         </li>
 
         <!-- Divider -->
@@ -145,6 +194,13 @@
         <!-- Sidebar Toggler (Sidebar) -->
         <div class="text-center d-none d-md-inline">
             <button class="rounded-circle border-0" id="sidebarToggle"></button>
+        </div>
+
+        <!-- Sidebar Message -->
+        <div class="sidebar-card">
+            <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="">
+            <p class="text-center mb-2"><strong>Insight Data Visualization</strong> is packed with knowledge! Be on the lookout for exciting new features!</p>
+            <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Send us your input!</a>
         </div>
 
     </ul>
@@ -160,11 +216,9 @@
             <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                 <!-- Sidebar Toggle (Topbar) -->
-                <form class="form-inline">
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                </form>
+                <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                    <i class="fa fa-bars"></i>
+                </button>
 
                 <!-- Topbar Search -->
                 <form
@@ -189,49 +243,72 @@
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fas fa-search fa-fw"></i>
                         </a>
-                        <!-- Dropdown - Messages -->
-                        <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
-                             aria-labelledby="searchDropdown">
-                            <form class="form-inline mr-auto w-100 navbar-search">
-                                <div class="input-group">
-                                    <input type="text" class="form-control bg-light border-0 small"
-                                           placeholder="Search for..." aria-label="Search"
-                                           aria-describedby="basic-addon2">
-                                    <div class="input-group-append">
-                                        <button class="btn btn-primary" type="button">
-                                            <i class="fas fa-search fa-sm"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
                     </li>
-
-
-                    <div class="topbar-divider d-none d-sm-block"></div>
-
-                    <!-- Nav Item - User Information -->
-                    <li class="nav-item dropdown no-arrow">
-                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Guest</span>
-                            <img class="img-profile rounded-circle"
-                                 src="img/undraw_profile.svg">
-                        </a>
-                    </li>
-
                 </ul>
-
             </nav>
             <!-- End of Topbar -->
+
 
             <!-- Begin Page Content -->
             <div class="container-fluid">
 
                 <!-- Page Heading -->
                 <h1 class="h3 mb-2 text-gray-800">Understanding Isotope Data in the Table</h1>
-                <p class="mb-4">Below is an example table with information that you'll find about common isotopes.
-                The isotope name </p>
+
+                <h5 class="h5 mb-2 text-gray-800">Isotope Name</h5>
+                <p class="mb-4">Refer to the nomenclature note under the radioactive decay
+                    page from the side bar.
+                </p>
+
+                <h5 class="h5 mb-2 text-gray-800">Half Life</h5>
+                <p class="mb-4">Half-life (symbol t<sup>1/2</sup>) is the time required for a quantity to
+                    reduce to half of its initial value. The term is commonly used in nuclear physics
+                    to describe how quickly unstable atoms undergo radioactive decay or how long
+                    stable atoms survive.
+                </p>
+
+                <h5 class="h5 mb-2 text-gray-800">Spin</h5>
+                <p class="mb-4">Spin is an intrinsic form of angular momentum carried by elementary particles, composite particles (hadrons), and atomic nuclei. Spin is one of two types of angular momentum in quantum mechanics, the other being orbital angular momentum. The orbital angular momentum operator is the quantum-mechanical counterpart to the classical angular momentum of orbital revolution and appears when there is periodic structure to its wave function as the angle varies. For photons, spin is the quantum-mechanical counterpart of the polarization of light; for electrons, the spin has no classical counterpart.
+                </p>
+
+                <h5 class="h5 mb-2 text-gray-800">Parity</h5>
+                <p class="mb-4">In quantum mechanics, a parity transformation (also called parity inversion) is the flip in the sign of one spatial coordinate. It can also be thought of as a test for chirality of a physical phenomenon, in that a parity inversion transforms a phenomenon into its mirror image. All fundamental interactions of elementary particles, with the exception of the weak interaction, are symmetric under parity. The weak interaction is chiral and thus provides a means for probing chirality in physics. In interactions that are symmetric under parity, such as electromagnetism in atomic and molecular physics, parity serves as a powerful controlling principle underlying quantum transitions.
+                </p>
+
+                <h5 class="h5 mb-2 text-gray-800">Atomic Weight</h5>
+                <p class="mb-4">Atomic weight is the average mass of atoms of an element, calculated using the relative abundance of isotopes in a naturally-occurring element. It is the weighted average of the masses of naturally-occurring isotopes.
+                </p>
+
+                <h5 class="h5 mb-2 text-gray-800">Abundance</h5>
+                <p class="mb-4">The abundance of the chemical elements is a measure of the occurrence of the chemical elements relative to all other elements in a given environment. Abundance is measured in one of three ways: by the mass-fraction (the same as weight fraction); by the mole-fraction (fraction of atoms by numerical count, or sometimes fraction of molecules in gases); or by the volume-fraction.
+                </p>
+
+                <h5 class="h5 mb-2 text-gray-800">Mass Excess</h5>
+                <p class="mb-4">The mass excess of a nuclide is the difference between its actual mass and its mass number in atomic mass units.
+                </p>
+
+                <h5 class="h5 mb-2 text-gray-800">Binding Energy</h5>
+                <p class="mb-4">Nuclear binding energy is the minimum energy that would be required to disassemble the nucleus of an atom into its component parts. These component parts are neutrons and protons, which are collectively called nucleons. The binding energy is always a positive number, as we need to spend energy in moving these nucleons, attracted to each other by the strong nuclear force, away from each other. The mass of an atomic nucleus is less than the sum of the individual masses of the free constituent protons and neutrons, according to Einstein's equation E=mc². This 'missing mass' is known as the mass defect, and represents the energy that was released when the nucleus was formed.
+                </p>
+
+                <h5 class="h5 mb-2 text-gray-800">Magnetic Moment</h5>
+                <p class="mb-4">The magnetic moment is the magnetic strength and orientation of a magnet or other object that produces a magnetic field.
+                </p>
+
+                <h5 class="h5 mb-2 text-gray-800">Quadrupole Moment</h5>
+                <p class="mb-4">The nuclear quadrupole moment is associated with non-spherical nuclear charge distributions. As such it is a measure of the degree to which the nuclear charge distribution deviates from that of a sphere; that is, the prolate or oblate shape of the nucleus.
+                </p>
+
+                <h5 class="h5 mb-2 text-gray-800">Decay Chain</h5>
+                <p class="mb-4">The decay chain refers to a series of radioactive decays of different radioactive decay products as a sequential series of transformations. It is also known as a "radioactive cascade". Most radioisotopes do not decay directly to a stable state, but rather undergo a series of decays until eventually a stable isotope is reached.
+                </p>
+
+
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+
+                <p class="mb-4">Below is an example table with information that you'll find about common isotopes.</p>
+
 
                 <!-- DataTales Example -->
                 <div class="card shadow mb-4">
